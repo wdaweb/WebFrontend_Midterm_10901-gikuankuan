@@ -1,0 +1,31 @@
+*{
+scroll-behavior: smooth;
+
+}
+
+.head-back{
+    background: rgba(0, 0, 0, 0.4);
+}
+.about{
+    height: 720px;
+    background: lightslategray;
+
+
+}
+.skill{
+    height: 720px;
+    background: lightgoldenrodyellow;
+}
+.story{
+    height: 720px;
+    background: lightgreen;
+}
+
+.thing{
+    height: 720px;
+    background: lightpink;
+}
+.pro{
+    height: 720px;
+    background: lightsteelblue;
+}

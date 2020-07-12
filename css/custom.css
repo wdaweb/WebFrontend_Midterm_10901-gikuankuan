@@ -1,0 +1,57 @@
+*{
+    font-family: 'Noto Sans SC', sans-serif;
+}
+img{
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+.carousel-caption {
+    top: 0;
+    bottom: 0;
+    text-shadow: #333 0.3rem 0.3rem 0.5rem;}
+
+footer .position-fixed{
+    right: 5vw;
+    bottom: 5vh;
+}
+
+#kuanroom nav.nav-tabs > .active{
+    background: #17a2b8 !important;
+
+}
+#kuanroom nav.nav-tabs{
+    background: #9ee5f0 !important;
+
+}
+
+#kuanroomprice th{
+    width: 25%;
+}
+
+#kuanroom nav>a{
+flex: 0 1 15%;
+transition:500ms ease;
+}
+#kuanroom nav>a.active{
+    background-color: #17a2b8;
+    }
+#kuanroom .tab-content>.row.active{
+    display: flex;
+}
+
+#kuanfaci {
+
+background-image: url("https://picsum.photos/1280/960/?random=3");
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+color: white;
+
+
+}
+
+#kuanmap iframe{
+    filter:brightness(0.5);
+
+
+}
