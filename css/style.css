@@ -1,5 +1,6 @@
 *{
 scroll-behavior: smooth;
+font-family: 'Noto Sans TC', sans-serif;
 
 }
 
@@ -9,8 +10,10 @@ scroll-behavior: smooth;
 .about{
     height: 720px;
     background: lightslategray;
-
-
+}
+.title{
+    padding-top: 40px;
+/* 因為隱藏了nav所以不用往下推了 */
 }
 .skill{
     height: 720px;
@@ -28,4 +31,7 @@ scroll-behavior: smooth;
 .pro{
     height: 720px;
     background: lightsteelblue;
+}
+.row{
+    margin: 10px;
 }

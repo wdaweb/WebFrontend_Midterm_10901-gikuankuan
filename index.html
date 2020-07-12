@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/custom.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet"/>
+
   </head>
 
   <body>
@@ -156,25 +158,31 @@
       </a>
     </div>
     <!-- 個人簡介 -->
-
-    <div class="about pt-5" id="about">
-      <header class="py-3 text-center">
-        <h3>123</h3>
-      </header>
-      <article class="container">
-        132
-      </article>
+ 
+<div id="about" class="about ">
+    <div class="col-12 text-center title">
+        <h2>關於 繼寬 kuan</h2>
     </div>
+    <div class="row justify-content-around text-center">
+     <div class="col-12 col-lg-6 ">
+        <img src="./img/1.jpg" class="img-thumbnail"  alt="" style="border-radius: 100%; max-width:70%;height:auto">
+    </div>
+    <div class="col-6 col-lg-6">
+        123
+         </div>
+         <div class="col-6 col-lg-6">
+            123
+             </div>
+    </div>
+</div>
+
 
     <!-- 求職條件 -->
 
     <!-- 技能bar-->
     <section class="skill pt-5" id="skill">
         <header class="py-3 text-center">
-            <h3>123</h3>
-          </header>
-          <article class="container">
-            132
+         
           </article>
     </section>
     <!-- 作品集 -->
@@ -210,4 +218,31 @@
 
     <!-- 與我聯繫 -->
   </body>
+
+
+
+  <script>
+
+
+var previousScroll = 0,
+headerOrgOffset = $('#kuanmenu').offset().top;
+
+$('#kuanmenu-wrap').height($('#kuanmenu').height());
+
+$(window).scroll(function() {
+    var currentScroll = $(this).scrollTop();
+    console.log(currentScroll + " and " + previousScroll + " and " + headerOrgOffset);
+    if(currentScroll > headerOrgOffset) {
+        if (currentScroll > previousScroll) {
+            $('#kuanmenu').fadeOut();
+        } else {
+            $('#kuanmenu').fadeIn();
+            $('#kuanmenu').addClass('fixed');
+        }
+    } else {
+         $('#kuanmenu').removeClass('fixed');   
+    }
+    previousScroll = currentScroll;
+});
+  </script>
 </html>
