@@ -12,8 +12,12 @@ font-family: 'Noto Sans TC', sans-serif;
     background: lightslategray;
 }
 .title{
-    padding-top: 40px;
+    padding-top: 30px;
 /* 因為隱藏了nav所以不用往下推了 */
+}
+.text{
+    font-size: 16px;
+
 }
 .skill{
     height: 720px;
