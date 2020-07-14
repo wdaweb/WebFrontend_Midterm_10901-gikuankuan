@@ -9,7 +9,9 @@ font-family: 'Noto Sans TC', sans-serif;
 }
 .about{
     height: 720px;
-    background: lightslategray;
+    background-image: url(../img/bg.JPG);
+    background-repeat: inherit;
+    background-attachment: fixed;
 }
 .title{
     padding-top: 30px;
@@ -30,11 +32,15 @@ font-family: 'Noto Sans TC', sans-serif;
 
 .thing{
     height: 720px;
-    background: lightpink;
+    background-image: url(../img/bg.JPG);
+    background-repeat: inherit;
+    background-attachment: fixed;
 }
 .pro{
     height: 720px;
-    background: lightsteelblue;
+    background-image: url(../img/bg.JPG);
+    background-repeat: inherit;
+    background-attachment: fixed;
 }
 .row{
     margin: 10px;
