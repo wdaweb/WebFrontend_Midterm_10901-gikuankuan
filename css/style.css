@@ -23,11 +23,13 @@ font-family: 'Noto Sans TC', sans-serif;
 }
 .skill{
     height: 720px;
-    background: lightgoldenrodyellow;
+    background:  rgba(240, 240, 44, 0.2);
+    /* background: lightgoldenrodyellow; */
 }
 .story{
     height: 720px;
-    background: lightgreen;
+    /* background: #90ee90; */
+    background: rgba(144, 238, 144, 0.2);
 }
 
 .thing{
