@@ -11,8 +11,13 @@
   <link rel="stylesheet" href="./css/custom.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet" />
+  <link rel="icon" href="./img/icon-01.png" type="image/x-icon">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
     integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
 
 
 </head>
@@ -20,39 +25,39 @@
 <body>
   <!-- 導覽列 -->
 
-  <header id="kuanmenu" class="fixed-top head-back">
-    <nav class="navbar navbar-expand-md navbar-dark container">
-      <a class="navbar-brand" href="#carouselExampleIndicators">kuan's resume</a>
+  <header id="kuanmenu" class="fixed-top head-back ">
+    <nav class="navbar navbar-expand-md navbar-dark titlebar">
+      <a class="navbar-brand" href="#mememe">kuan's resume</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kuannav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="kuannav">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#about"><i class="fas fa-fw fa-bed mr-2"></i>關於我</a>
+            <a class="nav-link" href="#about"> <i class="fas fa-user-circle"></i>關於我</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skill"><i class="fas fa-fw fa-gamepad mr-2"></i>技能</a>
+            <a class="nav-link" href="#story"> <i class="far fa-calendar"></i>學經歷 / 工作經歷</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pro"><i class="fas fa-fw fa-utensils mr-2"></i>作品集</a>
+            <a class="nav-link" href="#skill"> <i class="fas fa-tools"></i>技能</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#story"><i class="fas fa-fw fa-map-marker-alt mr-2"></i>學經歷/工作經歷</a>
+            <a class="nav-link" href="#pro"> <i class="fas fa-laptop-code"></i>作品集</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#thing"><i class="fas fa-fw fa-envelope mr-2"></i>得獎/特殊事蹟</a>
+            <a class="nav-link" href="#thing"> <i class="fas fa-medal"></i>得獎 / 特殊事蹟</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#callme"><i class="fas fa-fw fa-envelope mr-2"></i>與我聯繫</a>
-          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#callme"> <i class="fas fa-user-circle"></i>與我聯繫</a>
+          </li> -->
         </ul>
       </div>
     </nav>
   </header>
 
   <!-- 輪播的頁面 -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -114,27 +119,43 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
+  </div> -->
   <!-- 個人簡介 -->
+  <!-- 個人業面進場 -->
 
-  <div id="about" class="about " style="border: black 3px solid;">
-    <div class="col-12 text-center title" style="height:max-content">
+  <div id="mememe"  class="vh-100 row flex-column flex-md-row justify-content-center align-items-center mypage m-0">
+    <div class="col-auto">
+      <img src="./img/1.jpg" class="img-fluid rounded-circle  animate__animated animate__backInLeft" alt="照片"
+        style="width: 250px; height: 250px;box-shadow: white 0 0.5rem 3rem; ">
+    </div>
+
+    <div class="col-auto d-flex align-items-center text-white">
+
+      <div class="text-center m-5  animate__animated animate__backInRight">
+        <p class="h2"> 邱繼寬 <span class="h3 font-weight-bold">Kuan</span> </p>
+        <p>全端網頁工程師、前端工程師、後端工程師</p>
+        <p><i class="fas fa-globe-asia"></i>居住城市：台北市</p>
+        <p><i class="fas fa-fw fa-envelope mr-2"></i>a831202a@gmail.com</p>
+        <p><i class="fas fa-mobile"></i> (+886)988-917-292</p>
+        <p>
+          <a target="_blank"  href="https://www.linkedin.com/in/%E7%B9%BC%E5%AF%AC-%E9%82%B1-5605661a5/"> <i class="fab fa-linkedin"></i>　</a>
+          <a target="_blank"  href="https://www.facebook.com/profile.php?id=100000433275934"> <i class="fab fa-facebook"></i>　</a>
+          <a target="_blank"  href="https://www.instagram.com/kuan_1202/"> <i class="fab fa-instagram"></i>　</a>
+          <a target="_blank"  href="https://github.com/gikuankuan"> <i class="fab fa-github-square"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+<!-- 個人業面進場 -->
+
+
+
+  <div id="about" class="about">
+    <div class="col-12 text-center title  container" style="height:max-content">
       <h2>About kuan</h2>
     </div>
-    <div class="row justify-content-around text-center">
-      <div class="col-12 col-lg-4 m-1">
-        <div>
-          <img src="./img/1.jpg" class="img-thumbnail" alt=""
-            style="border-radius: 100%; max-width:70%;height:auto;box-shadow: #ccc 10px 10px 10px ;">
-        </div>
-        <div style="padding:5%;">
-          <span>這邊找好看的社群icon做超連結<br>
-            最少來個 FB IG MAIL PHONE
-
-          </span>
-        </div>
-
-      </div>
+    <div class="row justify-content-around text-center  container">
+    
       <div class="col-12 col-lg-8  " style="width: 200px; height: 100%;">
         <ul class="info li">
           <li>
@@ -163,16 +184,75 @@
       </div>
     </div>
   </div> <!-- 求職條件 -->
+  <section class="story pt-1" id="story">
+    <header class="py-3 text-center">
+      <h3>學經歷/工作經歷</h3>
+    </header>
+    <article class="container story">
+      <div class="time d-flex d-flex justify-content-center">
+        <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
+        <div class="col-lg-6 col-12">
+          <span class="first-block">名字</span>
+          <span class="second-block">邱繼寬 Kuan</span>
+        </div>
+      </div>
+      <div class="time d-flex d-flex justify-content-center">
+        <div class="col-lg-6 col-12">
+          <span class="first-block">名字</span>
+          <span class="second-block">邱繼寬 Kuan</span>
+        </div>
+        <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
+      </div>
+      <div class="time d-flex d-flex justify-content-center">
+        <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
+        <div class="col-lg-6 col-12">
+          <span class="first-block">名字</span>
+          <span class="second-block">邱繼寬 Kuan</span>
+        </div>
+      </div>
+      <div class="time d-flex d-flex justify-content-center">
+        <div class="col-lg-6 col-12">
+          <span class="first-block">名字</span>
+          <span class="second-block">邱繼寬 Kuan</span>
+        </div>
+        <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
+      </div>
+      <div class="time d-flex d-flex justify-content-center">
+        <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
+        <div class="col-lg-6 col-12">
+          <span class="first-block">名字</span>
+          <span class="second-block">邱繼寬 Kuan</span>
+        </div>
+      </div>
+      <div class="time d-flex d-flex justify-content-center">
+        <div class="col-lg-6 col-12">
+          <span class="first-block">名字</span>
+          <span class="second-block">邱繼寬 Kuan</span>
+        </div>
+        <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
+      </div>
+
+
+    </article>
+
+
+
+
+  </section>
+
+
+
+
 
   <!-- 技能bar-->
   <section class="skill " id="skill">
-    <div class="col-12 text-center title">
+    <div class="col-12 text-center title  container">
       <h2>Skill</h2>
     </div>
-    <div class="d-flex row justify-content-around">
+    <div class="d-flex row justify-content-around  container">
 
       <div class="col-12 col-lg-4 " style="text-align: center; padding: 5%;">
-        <i class="fas fa-cat " style="font-size: 8rem;"  ></i> 
+        <i class="fas fa-cat " style="font-size: 8rem;"></i>
         <h5>前端</h5>
         <li>
           <span class="first-block">擅長</span>
@@ -180,22 +260,24 @@
         </li>
       </div>
       <div class="col-12 col-lg-4 " style="text-align: center; padding: 5%;">
-         <i class="fas fa-cat " style="font-size: 8rem;"  ></i> 
+        <i class="fas fa-cat " style="font-size: 8rem;"></i>
         <h5>後端</h5>
         <li>
           <span class="first-block">擅長</span>
           <span class="second-block">PHP</span>
-        </li> </div>
+        </li>
+      </div>
       <div class="col-12 col-lg-4 " style="text-align: center; padding: 5%;">
-         <i class="fas fa-cat " style="font-size: 8rem;"  ></i> 
+        <i class="fas fa-cat " style="font-size: 8rem;"></i>
         <h5>視覺設計</h5>
         <li>
           <span class="first-block">工作經歷</span>
           <span class="second-block">總業建設-資訊專員(2.5年)</span>
-        </li> </div>
-     
-      
-      
+        </li>
+      </div>
+
+
+
 
     </div>
 
@@ -221,99 +303,45 @@
 
         <div class="card col-lg-3 col-6  m-2 " style="box-shadow: #ccc 5px 5px ;">
           <img src="./img/work/狂暴史努比.JPG" class="card-img-top" alt="...">
-            <p class="card-text">11112111.</p>
+          <p class="card-text">11112111.</p>
         </div>
 
-      <div class="card col-lg-3 col-6  m-2 " style="box-shadow: #ccc 5px 5px ;">
+        <div class="card col-lg-3 col-6  m-2 " style="box-shadow: #ccc 5px 5px ;">
           <img src="./img/work/狂暴史努比.JPG" class="card-img-top" alt="...">
-            <p class="card-text">11112111.</p>
+          <p class="card-text">11112111.</p>
         </div>
 
-      <div class="card col-lg-3 col-6  m-2 " style="box-shadow: #ccc 5px 5px ;">
+        <div class="card col-lg-3 col-6  m-2 " style="box-shadow: #ccc 5px 5px ;">
           <img src="./img/work/狂暴史努比.JPG" class="card-img-top" alt="...">
-            <p class="card-text">11112111.</p>
+          <p class="card-text">11112111.</p>
         </div>
 
-      <div class="card col-lg-3 col-6  m-2 " style="box-shadow: #ccc 5px 5px ;">
+        <div class="card col-lg-3 col-6  m-2 " style="box-shadow: #ccc 5px 5px ;">
           <img src="./img/work/狂暴史努比.JPG" class="card-img-top" alt="...">
-            <p class="card-text">11112111.</p>
+          <p class="card-text">11112111.</p>
         </div>
 
 
         <div class="card col-lg-3 col-6  m-2 " style="box-shadow: #ccc 5px 5px ;">
           <img src="./img/work/狂暴史努比.JPG" class="card-img-top" alt="...">
-            <p class="card-text">11112111.</p>
+          <p class="card-text">11112111.</p>
         </div>
-        </div>
-
       </div>
+
     </div>
+    
   </section>
   <!-- 工作經歷 -->
   <!-- 學經歷 -->
   <!-- 時間軸 -->
-  <section class="story pt-1" id="story">
-    <header class="py-3 text-center">
-      <h3>學經歷/工作經歷</h3>
-    </header>
-    <article class="container story">
-        <div class="time d-flex d-flex justify-content-center">
-          <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
-          <div class="col-lg-6 col-12">
-            <span class="first-block">名字</span>
-            <span class="second-block">邱繼寬 Kuan</span>
-          </div>
-        </div>
-     <div class="time d-flex d-flex justify-content-center">
-       <div class="col-lg-6 col-12">
-         <span class="first-block">名字</span>
-         <span class="second-block">邱繼寬 Kuan</span>
-        </div>
-        <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
-        </div>
-       <div class="time d-flex d-flex justify-content-center">
-          <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
-          <div class="col-lg-6 col-12">
-            <span class="first-block">名字</span>
-            <span class="second-block">邱繼寬 Kuan</span>
-          </div>
-        </div>
-     <div class="time d-flex d-flex justify-content-center">
-       <div class="col-lg-6 col-12">
-         <span class="first-block">名字</span>
-         <span class="second-block">邱繼寬 Kuan</span>
-        </div>
-        <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
-        </div>
-       <div class="time d-flex d-flex justify-content-center">
-          <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
-          <div class="col-lg-6 col-12">
-            <span class="first-block">名字</span>
-            <span class="second-block">邱繼寬 Kuan</span>
-          </div>
-        </div>
-     <div class="time d-flex d-flex justify-content-center">
-       <div class="col-lg-6 col-12">
-         <span class="first-block">名字</span>
-         <span class="second-block">邱繼寬 Kuan</span>
-        </div>
-        <div class="col-lg-6 col-12"><img src="https://picsum.photos/200/200/?random=1"></div>
-        </div>
-
-      
-    </article>
-
-
-
-
-  </section>
+ 
   <!-- 得獎事蹟 -->
 
   <section class="thing pt-5" id="thing">
     <header class="py-3 text-center">
       <h3>123</h3>
     </header>
-    
+
   </section>
 
   <!-- 與我聯繫 -->

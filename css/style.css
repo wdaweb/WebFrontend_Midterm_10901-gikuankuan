@@ -1,13 +1,35 @@
 * {
   scroll-behavior: smooth;
-  font-family: "Noto Sans TC", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.7;
+
+}
+p{
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 0;
+    color: #eee;
+}
+
+a{
+    text-decoration: none;
+    background: transparent;}
+
+    
+i{
+    color: white;
+    font-size: 1.2rem;
+    margin: 5 auto;
+    padding: 5px;
+    
+}
+.titlebar{
+    width: 80%;
+    margin: auto;
 }
 
 .head-back {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.8);
 }
 .about {
   height: 150%;
@@ -89,4 +111,8 @@ overflow: auto;
 .time{
   width: 60%;
   margin: 5% auto;
+}
+
+.mypage{
+    background-image: linear-gradient(45deg,  #58110a 0%,   #0f4c81 99%, #eee 100%);
 }
