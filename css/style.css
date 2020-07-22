@@ -1,32 +1,29 @@
 * {
   scroll-behavior: smooth;
   font-family: "Noto Sans TC", sans-serif;
-
 }
-p{
-    
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-top: 0;
-    color: #eee;
+p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0;
+  color: #eee;
 }
 
-a{
-    text-decoration: none;
-    background: transparent;}
-
-    
-i{
-    color: white;
-    font-size: 1.2rem;
-    margin: 5 auto;
-    padding: 5px;
-    
+a {
+  text-decoration: none;
+  background: transparent;
 }
-.titlebar{
-    width: 80%;
-    margin: auto;
+
+i {
+  color: white;
+  font-size: 1.2rem;
+  margin: 5 auto;
+  padding: 5px;
+}
+.titlebar {
+  width: 80%;
+  margin: auto;
 }
 
 .head-back {
@@ -49,7 +46,7 @@ i{
   /* background: lightgoldenrodyellow; */
 }
 .story {
-  height: 100%;
+  height: 80%;
   background-image: url(../img/bg.JPG);
   background-repeat: inherit;
   background-attachment: fixed;
@@ -81,7 +78,7 @@ ul {
 
 .info {
   list-style: none;
-  background: white;
+  background: #eee;
   border-radius: 15px;
   box-shadow: rgb(190, 190, 190) 5px 5px 5px;
 }
@@ -103,34 +100,79 @@ ul {
   color: #333;
   font-size: 1rem;
   line-height: 2rem;
+}
+
+.icon {
+  background: #b7cd32;
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+
+.time {
+  width:200%;
+  margin: auto;
   
 }
 
-.icon{
-    background: #b7cd32;
-    border-radius: 15px;   
-    font-size: 0.8rem;
+.mypage {
+  background-image: linear-gradient(45deg, #58110a 0%, #0f4c81 99%, #eee 100%);
+}
+.hover1 {
+  overflow: hidden;
+  text-align: center;
+  box-shadow: black 1px 1px 15px;
+}
+.hover1 img {
+  transition: all 1.5s ease;
 }
 
-.time{
-  width: 100%;
-  margin: 5% auto;
+.hover1:hover img {
+  transform: scale(1.5);
 }
 
-.mypage{
-    background-image: linear-gradient(45deg,  #58110a 0%,   #0f4c81 99%, #eee 100%);
-}
-.hover1{
- overflow: hidden;
- text-align: center;
- box-shadow: black 1px 1px 15px;
-}
-.hover1 img{
-transition: all 1.5s ease;
+.st{
+background-attachment: fixed;
+height: 400px;
+width: 100%;
+border-radius: 5px;
+background-repeat: no-repeat;
+background-size: cover;
+
+filter: grayscale(1);
 
 }
+.st:hover{
+    filter: saturate(0.5);
 
-.hover1:hover img{
+}
+.stdiv{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgba(15,76,129, 0.9);
+    box-shadow: rgba(5, 5, 5, 0.8);
+    width: 100%;
+    height: 100%;
+   
 
-transform: scale(1.5);
+
+}
+.stdiv:hover{
+    color: white !important;
+    font-size: 1.5rem;
+    background: rgba(15,76,129, 0.9);
+    width: 60%;
+    height: 60%;
+    border-radius:15px;
+    margin: auto;
+    transition: all 1s;
+}
+.stp{
+    color: transparent;
+    width: 100%;
+    height: 100%;
+}
+.stp:hover{
+   display:inline;
+   font-size: 1rem;
+   color: white !important;
 }
